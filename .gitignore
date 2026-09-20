@@ -1,0 +1,33 @@
+Directrices.pdf
+task.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Datos generados (se regeneran con seed=42)
+data/ads_catalog.csv
+data/user_profile.json
+
+# Gráficos generados
+*.png
