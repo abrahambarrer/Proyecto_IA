@@ -86,7 +86,7 @@ def generar_perfil_usuario(seed: int = 42) -> UserProfile:
 
 def guardar_catalogo_csv(catalogo: list[Ad], filepath: str = 'data/ads_catalog.csv') -> None:
     """Guarda el catálogo en formato CSV."""
-    os.makedirs(os.dirname(filepath), exist_ok=True)
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)
     
     with open(filepath, mode='w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
@@ -97,7 +97,7 @@ def guardar_catalogo_csv(catalogo: list[Ad], filepath: str = 'data/ads_catalog.c
             
 def guardar_perfil_json(user: UserProfile, filepath: str = 'data/user_profile.json') -> None:
     """Guarda el perfil del usuario en formato JSON."""
-    os.makedirs(os.dirname(filepath), exist_ok=True)
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)
     
     datos = {
         'id': user.id,
