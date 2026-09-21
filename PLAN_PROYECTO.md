@@ -93,6 +93,8 @@ Para alimentar el Módulo 1 se contemplan dos fuentes integradas y reproducibles
    * *URL:* [KuaiRand Official](https://kuairand.com/) / Kaggle Search: `KuaiRand-1K`.
 2. **Social Network Ads / Ad Click Prediction (Kaggle):**
    * *Descripción:* Datasets clásicos de targeting de anuncios en redes sociales con datos demográficos, intereses y métricas de engagement.
+3. **Simulated Social Media User Interaction dataset**
+    * *URL:* [Dataset](https://www.kaggle.com/datasets/aaidoudi/user-social-network-interaction-temporal).
 
 ### 4.2 Generador de Datos Sintéticos Calibrados (`data_generator.py`)
 Para garantizar que el proyecto se ejecute de manera inmediata sin requerir descargas pesadas de gigabytes:
